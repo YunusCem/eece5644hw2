@@ -40,7 +40,7 @@ saveas(gcf,'Q21distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
@@ -123,7 +123,7 @@ saveas(gcf,'Q22distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
@@ -205,7 +205,7 @@ saveas(gcf,'Q23distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
@@ -287,7 +287,7 @@ saveas(gcf,'Q24distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
@@ -369,7 +369,7 @@ saveas(gcf,'Q25distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
@@ -451,7 +451,7 @@ saveas(gcf,'Q26distribution.png')
 lambda = [0 1;1 0]; 
 %Threshold
 gamma = (lambda(2,1)-lambda(1,1))/(lambda(1,2)-lambda(2,2)) * p(1)/p(2); 
-discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));% - log(gamma)
+discriminantScore = log(evalGaussian(x,mu(:,2),Sigma(:,:,2)))-log(evalGaussian(x,mu(:,1),Sigma(:,:,1)));
 decision = (discriminantScore >= log(gamma));
 
 %Probability of true negative
